@@ -10,7 +10,7 @@ class Admin_auth_controller extends CI_Controller {
     }
 
     public function index() {
-        $data['title'] = 'Lyn Pet Shop';
+        $data['title'] = 'Ila Pet Shop';
 
         $this->form_validation->set_rules('inputUsername', 'Username', 'required');
         $this->form_validation->set_rules('inputPassword', 'Password', 'required');
